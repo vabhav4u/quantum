@@ -11,8 +11,14 @@ Make sure Python (3.8 or higher) is installed, then install the required modules
 ```bash
 pip install qiskit qiskit-aer
 
-Program Overview
+$ python 1_qubit_run/1_demo.py
 
-Uses a Hadamard gate to create quantum superposition
+        ┌───┐ ░ ┌─┐
+     q: ┤ H ├─░─┤M├
+        └───┘ ░ └╥┘
+meas: 1/═════════╩═
+                 0
 
-Measures the qubit to demonstrate quantum randomness
+python 1_qubit_run/2_demo.py
+{'1': 1}
+
